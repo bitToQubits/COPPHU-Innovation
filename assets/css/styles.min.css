@@ -1,1 +1,173 @@
-.fit-cover{object-fit:cover}.underline:after{background:var(--bs-blue)!important}
+.fit-cover{
+    object-fit:cover
+}
+
+.underline:after{
+    background:var(--bs-blue)!important
+}
+
+.bg-html-dark{
+    color: var(--bs-gray-200);
+}
+
+.bg-body-dark{
+    background-color:#0d1117;
+}
+
+header {
+    max-width: 1280px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+header[background-dots] {
+    background: url(https://education.github.com/external-assets/github-global-campus/img/hero_bg.2fff21e.svg); 
+    margin-bottom: -10rem;
+    padding-bottom: 10rem; 
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.card-dark{
+    background-color: #161b22; 
+    border-radius: 1rem; 
+    border: 1px solid #30363d !important;
+}
+
+.mark-yellow{
+    background-color: #f5d202 !important;
+}
+.spacing-header{
+    padding-top: 3rem;
+    padding-bottom: 4.7rem;
+}
+
+.text-yellow{
+    color:#f5d202;
+}
+
+.text-cyan{
+    color:#67cfe9;
+}
+
+.fa.fa-list{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+  }
+
+.fa.custom-fa{
+    font-size: 30px;
+    -webkit-text-stroke-color: #e2e4e5;
+   color:transparent;
+}
+
+.z-index-n1 {
+    z-index: -1 !important;
+}
+
+.start-50 {
+    left: 50% !important;
+}
+.top-50 {
+    top: 54% !important;
+}
+
+.display-novedades{
+    font-size: 24px; padding-top: 1rem; line-height:1.6;
+}
+
+.translate-middle {
+    transform: translate(-50%, -50%) !important;
+} 
+
+@media screen and (max-width: 800px) {
+    .rpt-3{
+        padding-top: 3rem;
+    }
+    .rpb-3{
+        padding-bottom: 5rem;
+    }
+
+    .producto-insignia{                
+        border: 1px solid #f6e7d8; 
+        color: #f6e7d8; 
+        padding: 5px 10px 5px 5px;
+        display:block !important;
+        border-radius: 1rem;
+        margin-bottom:1rem;
+        margin-top:1rem;
+    }
+
+    .logo-led{
+        border: 1px solid #30363d; 
+        filter: invert(90%);
+    }
+
+    .logo-selector{
+        border: 1px solid #c0bab5 !important; 
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .linea-v{
+        max-width: 800px !important;
+    }
+
+    .linea-v-scrappint{
+        max-width: 800px !important;
+    }
+
+    .display-none-1024px{
+        display:none;
+    }
+
+    .mt-5-1024{
+        margin-top: 5rem;
+    }
+}
+
+a{
+    font-size: 1.3rem !important;
+}
+
+@media screen and (min-width: 800px) {
+    .logo-selector{
+        border: 1px solid #c0bab5 !important; 
+        border-radius: 0px 1rem 1rem 0px !important; 
+        margin-bottom: 1rem;
+    }
+    .logo-led{
+        border: 1px solid #30363d !important; 
+        border-radius: 0px 1rem 1rem 0px !important; 
+        filter: invert(90%);
+    }
+    .producto-insignia{                
+        border: 1px solid #f6e7d8; 
+        color: #f6e7d8; 
+        padding: 5px 10px 5px 5px;
+        border-radius: 0px 1rem 1rem 0px;
+    }
+
+    .linea-v{
+        border-left: 2px solid #69c073;;
+        margin-left: 18%;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        height: 500px;
+    }
+
+    .linea-v-scrappint{
+        border-left: 2px solid #d46a4d;
+        margin-left: 18%;
+        padding-top: 5rem;
+        height: 500px;
+        border-radius: 0px 50px;
+    }
+
+    .rpt-5{
+        padding-top: 2rem;
+    }
+}
